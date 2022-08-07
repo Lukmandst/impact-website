@@ -113,7 +113,7 @@ const ProductList = () => {
         <CModalBody>Are you sure want to delete the product?</CModalBody>
         <CModalFooter>
           <CButton color="secondary" onClick={deletHandler}>
-            Delete
+            Yes
           </CButton>
           <CButton
             color="primary"
@@ -122,7 +122,7 @@ const ProductList = () => {
               setPid('');
             }}
           >
-            Cancel
+            No
           </CButton>
         </CModalFooter>
       </CModal>
